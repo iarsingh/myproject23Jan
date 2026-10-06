@@ -25,3 +25,11 @@ A learning repository containing a Java Hello World example and files used to pr
 ## Repository contents
 
 This repository contains learning material or project files related to the topic described above.
+
+## Documentation checks
+
+Project architecture, interview guides, and local source links are checked automatically on pushes and pull requests. Run the same check locally:
+
+```bash
+python3 .github/scripts/validate_project_docs.py
+```
